@@ -1,0 +1,101 @@
+body{
+	background-image: url("bg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	margin: 0px;
+	padding: 0;
+}
+
+.topnav {
+	background-color: #2b384f;
+	overflow: hidden;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+}
+
+.topnav a {
+	width: 30%;
+	color: #f2f2f2;
+	font-family: 'Turret Road', cursive;
+	text-decoration: none;
+	font-size: 25px;
+	display: flex;
+	min-height: 45px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.topnav a:hover {
+	background-color: #5a8ea6;
+	color: black;
+}
+
+.topnav a.active {
+	background-color: #4CAF50;
+	color: white;
+}
+
+.base{
+	max-width: 1300px;
+	width: 100%;
+	height: 350px;
+	margin: auto;
+	font-family: 'Turret Road', cursive;
+	color: white;
+	text-align: center;
+	background-color: rgba(56,81,97,0.3);
+}
+.base h1{
+	font-size: 30px;
+	margin: 0;
+}
+.pre{
+	max-width: 1300px;
+	width: 100%;
+	height: 350px;
+	margin: auto;
+	font-family: 'Turret Road', cursive;
+	color: white;
+	text-align: center;
+	background-color: rgba(56,81,97,0.3);
+}
+
+.pre a {
+	color: #f2f2f2;
+	padding: 8px 100px;
+	font-family: 'Turret Road', cursive;
+	text-decoration: none;
+	font-size: 25px;
+	background-color: #2b384f; 
+}
+
+.pre a:hover {
+	background-color: #5a8ea6;
+	color: black;
+}
+
+.pre a.active {
+	background-color: #4CAF50;
+	color: white;
+}
+.container{
+	max-width: 1200px;
+	width: 100%;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.content{
+	display: flex;
+	justify-content: space-between;
+}
+
+.input{
+	height: 45px;
+	padding: 5px 15px;
+	max-width: 320px;
+	width: 100%;
+}
